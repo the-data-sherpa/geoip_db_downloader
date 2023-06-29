@@ -40,6 +40,7 @@ def untar_file(file_path):
     except Exception as e:
         print("Error extracting file:", str(e))
 
+#This will check to make sure that the directory structure for the file path exists, if not, the it will create it.
 def check_filepath(file_path):
     try:
         # Extract the directory path from the file path
